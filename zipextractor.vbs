@@ -21,7 +21,7 @@ strZipFile = sCurPath & "\" & strFileZIP
 'The folder the contents should be extracted to.
 outFolder = sCurPath & "\"
 
- WScript.Echo ( "Extracting file " & strFileZIP)
+ WScript.Echo ( "Extracting..." & strFileZIP)
 
 Set objShell = CreateObject( "Shell.Application" )
 Set objSource = objShell.NameSpace(strZipFile).Items()
