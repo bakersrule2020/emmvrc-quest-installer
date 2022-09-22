@@ -1,13 +1,3 @@
-' j_unzip.vbs
-'
-' UnZip a file script
-'
-' By Justin Godden 2010
-'
-' It's a mess, I know!!!
-'
-
-' Dim ArgObj, var1, var2
 Set ArgObj = WScript.Arguments
 
 If (Wscript.Arguments.Count > 0) Then
